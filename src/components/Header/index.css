@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-img{
+    height:20px;
+    width:20px;
+    margin-left:30px;
+}
+.name{
+    color:#12022f;
+    font-size:20px;
+    font-family:"Roboto";
+}
+.list-items{
+    list-style-type: none;
+    color:#12022f;
+    font-size:20px;
+    font-family:"Roboto";
+    align-self: flex-end;
+    
+}
+.nav-link{
+    cursor: pointer;
+    outline: none;
+}
+.item{
+    list-style-type: none;
+}
+
